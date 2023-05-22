@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* pre-header */
+.pre-header {
+  background-color: #3f6d69;
+  width: 1441px;
+  height: 71px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pre-header .left,
+.pre-header .right {
+  display: flex;
+}
+.pre-header .left {
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1441px;
+  height: 105px;
+  background-color: #ffffff;
+}
