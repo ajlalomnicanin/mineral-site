@@ -1,21 +1,43 @@
 * {
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Poppins";
 }
 /* pre-header */
 .pre-header {
   background-color: #3f6d69;
-  width: 1441px;
+  width: 100%;
   height: 71px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+/* .pre-header:hover {
+  border: 1px solid #3f6d69;
+} */
+
 .pre-header .left,
 .pre-header .right {
   display: flex;
+  font-size: large;
+  color: #ffffff;
 }
 .pre-header .left {
+  margin-right: 280px;
+}
+.pre-header .left .phone {
+  margin-right: 8px;
+  margin-top: 1px;
+  font-size: larger;
+}
+.pre-header .right .down {
+  font-size: small;
+  margin-top: 4px;
+  margin-right: 7px;
+}
+.pre-header .right .fb-ins {
+  margin-left: 7px;
+  font-size: larger;
 }
 
 /* header */
@@ -23,7 +45,82 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1441px;
+  width: 100%;
   height: 105px;
   background-color: #ffffff;
+}
+.links a {
+  text-decoration: none;
+  color: #3f6d69;
+  width: 87px;
+  height: 23px;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #3f6d69;
+  padding: 7px;
+}
+.lupa {
+  font-size: 13px;
+  color: #3f6d69;
+}
+/* landing */
+.landing {
+  width: 100%;
+  height: 664px;
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(73, 130, 125, 0.6) 61.01%,
+      rgba(7, 7, 7, 0) 112.63%
+    ),
+    url("./slike/landing photo.png");
+  background-repeat: no-repeat;
+}
+.landing .first {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 105px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  position: absolute;
+  width: 692px;
+  height: 210px;
+  left: 200px;
+  top: 390px;
+}
+.landing .first span {
+  background-color: rgb(63, 110, 106, 0.84);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.landing .second {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  position: absolute;
+  width: 631px;
+  height: 30px;
+  left: 197px;
+  top: 604px;
+}
+.landing button {
+  position: absolute;
+  width: 170px;
+  height: 58px;
+  left: 198px;
+  top: 680px;
+  border: none;
+  background: #fdffff;
+  border-radius: 4px;
+
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
+  color: #3f6d69;
 }
