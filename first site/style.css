@@ -166,14 +166,15 @@
   height: 321px;
 }
 .about-home .about-text hr {
-  width: 80px;
+  width: 77px;
   height: 0px;
   border: 2px solid #3f6d69;
   position: absolute;
   left: -1px;
   top: 1046px;
 }
-.about-home .about-text button {
+.about-home .about-text .btn,
+.offers .btn {
   width: 100px;
   font-style: normal;
   font-weight: 300;
@@ -207,4 +208,80 @@
   position: relative;
   left: 29px;
   top: 6px;
+}
+/* offers  */
+.offers .h1 {
+  width: 479px;
+  height: 96px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 0.03em;
+  margin: auto;
+  color: #3f6d69;
+
+  position: relative;
+  top: 40px;
+  left: 45px;
+}
+.offers .right-hr {
+  position: absolute;
+  width: 428px;
+  height: 0px;
+  left: 1036px;
+  top: 1795px;
+
+  border: 2px solid #3f6d69;
+}
+.offers .left-hr {
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 0px;
+  top: 1795px;
+
+  border: 2px solid #3f6d69;
+}
+.offers .offers-container {
+  display: flex;
+  padding: 80px;
+}
+.offers .offers-container .img2 {
+  position: relative;
+  top: 125px;
+}
+.offers .offers-container .text {
+  width: 320px;
+  height: 259px;
+  color: #3f6d69;
+
+  position: relative;
+  top: 55px;
+  left: 50px;
+}
+.offers .offers-container .text h1 {
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 0.03em;
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.offers .offers-container .text p {
+  margin-left: 40px;
+  margin-right: 40px;
+
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #3f6d69;
+}
+.offers .btnmore {
+  position: relative;
+  top: 40px;
+  left: 47%;
 }
