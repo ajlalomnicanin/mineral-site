@@ -1,7 +1,17 @@
 * {
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Allerta Stencil", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "Lato", sans-serif;
+  font-family: "Lobster Two", cursive;
+  font-family: "Marck Script", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sail", cursive;
+  font-family: "Sono", sans-serif;
+  font-family: "Zilla Slab", serif;
 }
 /* pre-header */
 .pre-header {
@@ -123,4 +133,78 @@
   font-size: 25px;
   line-height: 38px;
   color: #3f6d69;
+}
+/* about-home */
+.about-home {
+  width: 100%;
+  display: flex;
+  padding: 80px;
+}
+.about-home .about-text {
+  width: 40%;
+  padding-top: 80px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #3f6d69;
+}
+.about-home .about-text h1 {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 0.03em;
+
+  width: 307px;
+  height: 96px;
+}
+.about-home .about-text p {
+  width: 365px;
+  height: 321px;
+}
+.about-home .about-text hr {
+  width: 80px;
+  height: 0px;
+  border: 2px solid #3f6d69;
+  position: absolute;
+  left: -1px;
+  top: 1046px;
+}
+.about-home .about-text button {
+  width: 100px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
+  background: #3f6d69;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  margin-top: 40px;
+}
+.about-home .about-image {
+  display: flex;
+}
+.about-home .about-image .image1 .img1 {
+  position: relative;
+  left: 233px;
+  top: 51px;
+}
+.about-home .about-image .image2 .img2 {
+  position: relative;
+  left: 250px;
+  bottom: 6px;
+}
+.about-home .about-image .image1 .img3 {
+  position: relative;
+  top: 60px;
+  left: 234px;
+}
+.about-home .about-image .image2 .img4 {
+  position: relative;
+  left: 29px;
+  top: 6px;
 }

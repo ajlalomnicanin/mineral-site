@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+/* pre-header */
+.pre-header {
+  background-color: #3f6d69;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .pre-header:hover {
+    border: 1px solid #3f6d69;
+  } */
+
+.pre-header .left,
+.pre-header .right {
+  display: flex;
+  font-size: large;
+  color: #ffffff;
+}
+.pre-header .left {
+  margin-right: 280px;
+}
+.pre-header .left .phone {
+  margin-right: 8px;
+  margin-top: 1px;
+  font-size: larger;
+}
+.pre-header .right .down {
+  font-size: small;
+  margin-top: 4px;
+  margin-right: 7px;
+}
+.pre-header .right .fb-ins {
+  margin-left: 7px;
+  font-size: larger;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 105px;
+  background-color: #ffffff;
+}
+.links a {
+  text-decoration: none;
+  color: #3f6d69;
+  width: 87px;
+  height: 23px;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #3f6d69;
+  padding: 7px;
+}
+.lupa {
+  font-size: 13px;
+  color: #3f6d69;
+}
+/* materials */
+.materials {
+  background: linear-gradient(180deg, #359a91 0%, rgba(7, 7, 7, 0) 112.63%),
+    url(./slike/materials.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+}
+
+.materials p {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+}
