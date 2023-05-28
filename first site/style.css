@@ -285,3 +285,121 @@
   top: 40px;
   left: 47%;
 }
+
+/* photo */
+/* .photo {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 2px solid red;
+}
+.photo img {
+  height: 377px;
+  width: 562.8959350585938px;
+
+  position: relative;
+  z-index: 1;
+  top: 95px;
+}
+.photo .leva,
+.photo .desna {
+  color: #9a9a9a;
+  font-size: 26px;
+}
+.photo .leva {
+  position: relative;
+  /* top: 277px; */
+/* right: 570px; */
+/* z-index: 2;
+}
+.photo .desna {
+  position: relative;
+  /* top: 277px; */
+/* right: 45px; */
+/* z-index: 2; */
+/* } */
+
+/* .photo .text1 {
+  width: 994px;
+  height: 562px;
+  background-color: #3f6d69;
+  position: relative;
+  /* bottom: 380px; */
+/* left: 310px; */
+/* flex-shrink: 0;
+  border-radius: 10px;
+}   */
+/* gcdhejwd */
+.photo {
+  height: 562px;
+  position: relative;
+  margin: 80px;
+  margin-top: 140px;
+}
+
+.photo img {
+  height: 377px;
+  width: 562.8959350585938px;
+  position: absolute;
+  z-index: 2;
+  top: 95px;
+
+  border-radius: 12px;
+}
+
+.photo .leva,
+.photo .desna {
+  color: #cac5c5;
+  font-size: 26px;
+}
+
+.photo .leva {
+  position: relative;
+  z-index: 3;
+  top: 280px;
+  right: 8px;
+}
+
+.photo .desna {
+  position: relative;
+  z-index: 3;
+  top: 280px;
+  left: 514px;
+}
+
+.photo .text1 {
+  width: 994px;
+  height: 562px;
+  background-color: #3f6d69;
+  color: #ffffff;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  left: 310px;
+  border-radius: 10px;
+  padding-top: 120px;
+  padding-left: 300px;
+}
+.photo .text1 .left1 {
+  display: flex;
+}
+.photo .text1 .left1 div {
+  padding-top: 40px;
+  width: 280px;
+  height: 140px;
+}
+.photo .text1 .left1 h2 {
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+.photo .text1 .p {
+  padding-bottom: 10px;
+
+  font-size: 20px;
+  line-height: 28.2px;
+  font-weight: bold;
+}
