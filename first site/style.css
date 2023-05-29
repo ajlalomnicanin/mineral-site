@@ -287,57 +287,12 @@
 }
 
 /* photo */
-/* .photo {
-  display: flex;
-  margin-top: 100px;
-  margin-left: 80px;
-  margin-right: 80px;
-  border: 2px solid red;
-}
-.photo img {
-  height: 377px;
-  width: 562.8959350585938px;
-
-  position: relative;
-  z-index: 1;
-  top: 95px;
-}
-.photo .leva,
-.photo .desna {
-  color: #9a9a9a;
-  font-size: 26px;
-}
-.photo .leva {
-  position: relative;
-  /* top: 277px; */
-/* right: 570px; */
-/* z-index: 2;
-}
-.photo .desna {
-  position: relative;
-  /* top: 277px; */
-/* right: 45px; */
-/* z-index: 2; */
-/* } */
-
-/* .photo .text1 {
-  width: 994px;
-  height: 562px;
-  background-color: #3f6d69;
-  position: relative;
-  /* bottom: 380px; */
-/* left: 310px; */
-/* flex-shrink: 0;
-  border-radius: 10px;
-}   */
-/* gcdhejwd */
 .photo {
   height: 562px;
   position: relative;
   margin: 80px;
   margin-top: 140px;
 }
-
 .photo img {
   height: 377px;
   width: 562.8959350585938px;
@@ -347,27 +302,23 @@
 
   border-radius: 12px;
 }
-
 .photo .leva,
 .photo .desna {
   color: #cac5c5;
   font-size: 26px;
 }
-
 .photo .leva {
   position: relative;
   z-index: 3;
   top: 280px;
   right: 8px;
 }
-
 .photo .desna {
   position: relative;
   z-index: 3;
   top: 280px;
   left: 514px;
 }
-
 .photo .text1 {
   width: 994px;
   height: 562px;
@@ -398,8 +349,70 @@
 }
 .photo .text1 .p {
   padding-bottom: 10px;
-
   font-size: 20px;
   line-height: 28.2px;
   font-weight: bold;
+}
+/* events  */
+.events {
+  width: 100%;
+  color: #3f6d69;
+}
+.events .heading h1 {
+  height: 96px;
+  padding-left: 500px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 0.03em;
+}
+.events .heading p {
+  height: 79px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.03em;
+  padding-left: 565px;
+}
+.events .heading .left-hr,
+.right-hr {
+  position: relative;
+  top: 59px;
+  width: 414px;
+  height: 0px;
+  border: 2px solid #3f6d69;
+}
+.right-hr {
+  position: relative;
+  left: 1078px;
+  width: 386px;
+}
+/* .events .items { */
+/* display: flex; */
+/* justify-content: space-evenly; */
+/* } */
+.events .items .items1 img {
+  position: relative;
+  z-index: 1;
+}
+
+.events .items .items1 .i {
+  position: relative;
+  z-index: 2;
+  left: -60px;
+  top: -10px;
+  font-size: 22px;
+  height: 20px;
+  color: #ffffff;
+}
+.events .items .items1 .number {
+  position: relative;
+  z-index: 3;
+  bottom: 25px;
+  right: 70px;
+  background-color: #3f6d69;
+  color: #ffffff;
+  font-size: 8px;
+  padding: 3px;
+  border-radius: 50%;
 }
