@@ -449,7 +449,7 @@
 /* location */
 .location {
   height: 600px;
-  margin: 200px 80px 20px 80px;
+  margin: 200px 80px 0px 80px;
   color: #3f6d69;
 }
 .location .location1 h1 {
@@ -473,9 +473,10 @@
 }
 .location .green {
   width: 994px;
-  height: 450px;
+  height: 550px;
   background: #3f6d69;
   position: relative;
+  z-index: 1;
   top: 70px;
   left: 230px;
 }
@@ -490,8 +491,8 @@
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
   padding: 20px;
   position: relative;
-  z-index: 1;
-  bottom: 350px;
+  z-index: 3;
+  bottom: 450px;
 }
 
 .location .main div h1 {
@@ -503,4 +504,48 @@
   line-height: 35px;
 
   color: #000000;
+}
+/* pre-footer */
+.pre-footer {
+  height: 250px;
+  background: #3f6d69;
+}
+.pre-footer div {
+  background-color: #3f6d69;
+  position: relative;
+  z-index: 2;
+  top: 70px;
+  text-align: center;
+}
+.pre-footer div h1 {
+  color: #ffffff;
+}
+.pre-footer div hr {
+  width: 90px;
+  border: 1px solid #ffffff;
+
+  position: relative;
+  left: 680px;
+  top: 10px;
+}
+.pre-footer div input,
+.pre-footer div button {
+  height: 30px;
+  width: 220px;
+  font-weight: bold;
+
+  font-size: larger;
+  padding-left: 10px;
+
+  background-color: #3f6d69;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+.pre-footer div button {
+  width: auto;
+  color: #3f6d69;
+  background-color: #ffffff;
+
+  position: relative;
+  right: 5px;
 }
