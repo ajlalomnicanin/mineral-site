@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* contact */
+.contactt {
+  background-image: linear-gradient(
+      rgba(73, 130, 125, 0.5),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.1)
+    ),
+    url("/CONTACT/slike/contact\ us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 98, 5vw;
+  height: 100vh;
+}
+.contactt h1 {
+  padding-top: 337px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* ikonice */
+.icon1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+.icon1 .icon {
+  display: flex;
+}
+.icon1 .icon i {
+  padding: 10px;
+  color: #ffffff;
+  font-size: 40px;
+  background: linear-gradient(89.07deg, #3f6d69 -24.58%, #4d4d4d 197.41%);
+  border-radius: 14px;
+}
+.icon1 .icon div {
+  font-size: larger;
+  margin-left: 10px;
+}
+.icon1 .icon div h2 {
+  color: #203656;
+}
+/* write */
+.write h1 {
+  margin: 50px 0px 0px 150px;
+  width: 112px;
+  height: 60px;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #3f6d69;
+}
+.write hr {
+  width: 85.01px;
+  height: 0px;
+  margin: 0px 0px 30px 150px;
+  border: 2px solid #5a5858;
+  transform: rotate(-0.67deg);
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+.input div input {
+  width: 490px;
+  height: 51px;
+  background: #fdffff;
+  border: 1px solid #359a91;
+  border-radius: 25px;
+  font-size: 20px;
+  padding-left: 25px;
+}
+textarea {
+  width: 1120px;
+  height: 304px;
+  border: 1px solid #359a91;
+  border-radius: 19px;
+  margin: 30px 150px 30px 150px;
+  font-size: 20px;
+  padding: 25px 0px 0px 25px;
+}
+/* end1 */
+.end1 {
+  width: 100%;
+  height: 180px;
+}
+.end1 h1 {
+  text-align: center;
+  height: 38px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+
+  color: #3f6d69;
+}
+.end1 hr {
+  width: 85.01px;
+  height: 0px;
+  margin: 0px 0px 30px 595px;
+  border: 2px solid #5a5858;
+  transform: rotate(-0.67deg);
+}
+.end1 p {
+  height: 60px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.end1 span {
+  padding-right: 470px;
+}
+/* location */
+.location1 .main1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px 30px;
+}
+.location1 .main1 div {
+  width: 305px;
+  height: 287px;
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+.location .main div h1 {
+  padding-bottom: 10px;
+}
+.location .main div p {
+  font-weight: 250;
+  font-size: 23px;
+  line-height: 35px;
+  color: #000000;
+}
+/*  */
+.contact .left {
+  padding-right: 50px;
+}

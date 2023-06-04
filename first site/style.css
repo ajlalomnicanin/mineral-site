@@ -22,9 +22,12 @@
   justify-content: space-around;
   align-items: center;
 }
-/* .pre-header:hover {
-  border: 1px solid #3f6d69;
-} */
+.pre-header,
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
 
 .pre-header .left,
 .pre-header .right {
@@ -39,6 +42,12 @@
   margin-right: 8px;
   margin-top: 1px;
   font-size: larger;
+}
+.pre-header .left .phone:hover,
+.pre-header .right .down:hover,
+.pre-header .right .fb-ins:hover {
+  background-color: #ffffff;
+  color: #3f6d69;
 }
 .pre-header .right .down {
   font-size: small;
@@ -58,6 +67,9 @@
   width: 100%;
   height: 105px;
   background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .links a {
   text-decoration: none;
@@ -72,10 +84,15 @@
   color: #3f6d69;
   padding: 7px;
 }
+.links a:hover,
+.lupa:hover {
+  font-size: larger;
+}
 .lupa {
   font-size: 13px;
   color: #3f6d69;
 }
+
 /* landing */
 .landing {
   width: 100%;
@@ -296,7 +313,7 @@
 }
 .photo img {
   height: 377px;
-  width: 562.8959350585938px;
+  width: 562px;
   position: absolute;
   z-index: 2;
   top: 95px;
