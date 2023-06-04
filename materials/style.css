@@ -1,18 +1,20 @@
 * {
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Poppins";
-  width: 98, 5vw;
 }
+
 /* materials */
 .materials {
-  background:/*  linear-gradient(180deg, #359a91 0%, rgba(7, 7, 7, 0) 112.63%), */ url(./slike/materials.png);
+  background-image: linear-gradient(
+      rgba(73, 130, 125, 0.5),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.1)
+    ),
+    url("./slike/materials.png");
   background-repeat: no-repeat;
   background-size: cover;
-
-  background-color: rgb(84, 53, 14);
   width: 98, 5vw;
-
   height: 100vh;
 }
 .materials h1 {
