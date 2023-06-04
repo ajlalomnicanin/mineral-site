@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.materials {
+  background-image: linear-gradient(
+      rgba(73, 130, 125, 0.5),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.1)
+    ),
+    url("./slike/ABOUT\ US.png");
+}
+.container2 {
+  height: auto;
+}
+.container {
+  width: 1282px;
+  height: 472px;
+  background: #3f6d69;
+  margin: 100px auto;
+}
+.container p {
+  width: 1116px;
+  height: 312px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 200%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding: 80px 0px 80px 150px;
+}
+.container2 img {
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
