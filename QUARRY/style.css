@@ -1,0 +1,107 @@
+* {
+}
+/* QUARRY */
+.materials {
+  background-image: linear-gradient(
+      rgba(73, 130, 125, 0.5),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.3),
+      rgba(73, 130, 125, 0.1)
+    ),
+    url("./slike/QUARRY\ .png");
+}
+.cezlak {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+/* QUARRY1 */
+.quarry1 .main {
+  display: flex;
+  padding: 150px 0px 20px 100px;
+}
+.quarry1 .main img {
+  width: 630px;
+  height: 430px;
+  position: relative;
+  z-index: 1;
+}
+.quarry1 .main .text {
+  color: #ffffff;
+  width: 758px;
+  height: 574px;
+  background: #3f6d69;
+  position: relative;
+  bottom: 60px;
+  right: 100px;
+  padding: 100px 0px 0px 200px;
+}
+.quarry1 .main .text h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  width: 177px;
+  height: 72px;
+}
+.quarry1 .main .text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  width: 393px;
+  height: 272px;
+}
+.quarry1 .main .img {
+  background-color: rgb(23, 94, 94);
+  position: relative;
+  z-index: 1;
+  right: 100px;
+}
+.quarry1 .main .text1 {
+  width: 738px;
+  height: 574px;
+  position: relative;
+  left: 0px;
+}
+.quarry1 .main .text1 .h1 {
+  width: 261px;
+  height: 72px;
+  position: relative;
+  right: 100px;
+}
+.quarry1 .main .text1 .p1 {
+  position: relative;
+  right: 100px;
+}
+.quarry1 .podpec {
+  background-image: url("./slike/3.png");
+  width: 1280px;
+  height: 795px;
+}
+.quarry1 .podpec {
+  background-image: url("./slike/3.png");
+  width: 1280px;
+  height: 795px;
+  margin: 0px 0px 100px 184px;
+}
+.quarry1 .podpec h1 {
+  width: 259px;
+  height: 104px;
+  background: #3f6d69;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  bottom: 50px;
+  right: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
