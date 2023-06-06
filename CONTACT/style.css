@@ -79,11 +79,10 @@
   padding-left: 25px;
 }
 textarea {
-  width: 1120px;
   height: 304px;
   border: 1px solid #359a91;
   border-radius: 19px;
-  margin: 30px 150px 30px 150px;
+  margin: 30px 150px 30px 165px;
   font-size: 20px;
   padding: 25px 0px 0px 25px;
 }
